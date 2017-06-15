@@ -1,0 +1,104 @@
+.hero {
+    height: 75px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../img/beach.jpg');
+    padding-bottom: 750px;
+}
+
+.social-media a {
+    color: yellow;
+}
+
+.social-media a:hover {
+    color: green;
+}
+
+.social-media i {
+    margin: 0px 12px;
+}
+
+
+.nav-container {
+    
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: x-large;
+    background-color: #4f80a8;
+    padding-top: 0;
+    padding-bottom: 3px;
+   
+}
+
+.nav-items{
+    margin-top: 0;
+    text-align: right;
+}
+
+.nav-items .listed-nav_item{
+    display: inline-block; 
+}
+
+.nav-items .listed-nav_item a:hover {
+    color:  #e660bf;
+}
+.nav-items .listed-nav_item a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+}
+
+.nav-items .listed-nav_item a.active{
+    color: #e660bf;
+}
+
+
+.logo{ 
+   width: 120px;
+   float: left;
+   height: 83px;
+   margin-left: 75px;
+}
+
+
+#box1 {
+    background-color: #f5cc8c;
+    display: inline-block;
+    height: auto;
+    width: auto;
+    margin-top: 50px;
+    color: white;
+    text-align: center;
+    font-size: larger;
+    font-family: fantasy;
+    border-radius: 5px;
+}
+
+.column {
+    height: 200px;
+    width: 33%;
+    float: left;
+    background-color: ;
+    text-align: justify;
+    position: relative;
+    padding: 0px 8px;
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(155, 155, 155, .5)
+}
+
+footer {
+    background-color: #a87f3f;
+    height: 50px;
+    text-align: center;
+    color: white;
+    padding: 15px;
+    clear: both;
+}
+
+body {
+    margin: 0px;
+}
